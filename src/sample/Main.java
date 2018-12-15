@@ -13,6 +13,7 @@ public class Main {
             Registry registry = LocateRegistry.createRegistry(1100);
 
 // create a new service named CounterService
+        //test git
 
             registry.rebind("disp", new DispatchImpl(stub));
 
